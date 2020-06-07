@@ -1,0 +1,342 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>kaambada.com</title>
+      <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+	
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link href="/style/image/failure2.0.png" rel="icon" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">	
+  
+  <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <link rel="stylesheet" type="text/css" href="style/style.css">
+
+<!-- Load Facebook SDK for JavaScript -->
+<div id="fb-root"></div>
+<script>
+  window.fbAsyncInit = function() {
+    FB.init({
+      xfbml            : true,
+      version          : 'v6.0'
+    });
+  };
+
+  (function(d, s, id) {
+  var js, fjs = d.getElementsByTagName(s)[0];
+  if (d.getElementById(id)) return;
+  js = d.createElement(s); js.id = id;
+  js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js';
+  fjs.parentNode.insertBefore(js, fjs);
+}(document, 'script', 'facebook-jssdk'));</script>
+
+<!-- Your customer chat code -->
+<div class="fb-customerchat"
+  attribution=setup_tool
+  page_id="105296791152150"
+theme_color="#00C6FF">
+</div>
+
+</head>
+<body>
+<div class="imgbg">
+	
+   <nav class="navbar navbar-expand-md navbar-dark bg-dark">
+   	<div class="container">
+  <a class="navbar-brand text-bold text-warning" href="https://www.youtube.com/channel/UCahFaiVGefBRMHlN9HuBGjw/videos" target="blank">Failure</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse text-center" id="navbarNav">
+    <ul class="navbar-nav ml-auto">
+      <li class="nav-item active">
+        <a class="nav-link text-white" href="#">Home</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#31">Service</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#32">About</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link text-white" href="#33">Team</a>
+	  </li>
+	  <li class="nav-item">
+        <a class="nav-link text-white" href="#34">Contact</a>
+      </li>
+    </ul>
+  </div>
+</div>
+</nav>
+<div class="container  text-white later" style="font-family: 'Times New Roman', Times, serif;">
+	<a href=" https://www.kaambada.com/ " target="_blank"><h2 class="text-center" style="color: #ffcc00;">kaambada.com</h2></a>
+	<h2 class="text-center">Koi kaam chhota nahi hota</h2>
+	<h1 class="text-center">We are happy to help you :)</h1>
+	<br>
+<!-- ======================REGISTER FORM============================== -->
+
+	<button class="btn btn-warning fmcenter"data-target="#mymodel"data-toggle="modal">Register</button>
+	<div class="modal fade"id="mymodel">
+		<div class="modal-dialog modal-dialog-centered">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h3>Register</h3>
+					<button type="button" class="close"data-dismiss="modal">&times;</button>
+				</div>
+				<div class="modal-body">
+					<!-- ===========form=============== -->
+					<form action="/register" method="POST">
+						<div class="container">
+							<p>Please fill in this form to create an account.</p>
+							<div class="form-group">
+							<label for="name"><b>Name</b></label>
+							<input type="text" placeholder="Enter Name" name="name" class="form-control" id="name"  required>
+							</div>
+							<div class="form-group">
+							<label for="email"><b>Email</b></label>
+							<input type="text" placeholder="Enter Email" name="email" class="form-control" id="email"  required>
+							</div>
+							<div class="form-group">
+							<label for="mobile"><b>Mobile No</b></label>
+							<input type="tel" placeholder="Enter Mobile number" name="mobile" class="form-control" id="mobile"  required>
+							</div>
+							<div class="form-group">
+							<label for="profession"><b>Profession</b></label>
+							<input type="text" placeholder="Enter Profession" name="profession" class="form-control" id="profession"  required>
+							</div>
+							<!-- <div class="form-group">
+							<label for="gender"><b>Gender</b></label>
+							<input type="text" placeholder="Enter Gender" name="gender" class="form-control" id="gender"  required>
+							</div> -->
+							<div class="form-group">
+								<label for="exampleFormControlSelect1">Gender</label>
+								<select class="form-control" name="gender" id="gender">
+								  <option>male</option>
+								  <option>female</option>
+								  <option>other</option>
+								</select>
+							</div>
+							<div class="form-group">
+							<label for="age"><b>Age</b></label>
+							<input type="text" placeholder="Enter Age" name="age" class="form-control" id="age"  required>
+							</div>
+							<div class="form-group">
+							<label for="state"><b>State</b></label>
+							<input type="text" placeholder="Enter State" name="state" class="form-control" id="state"  required>
+							</div>
+							<div class="modal-footer text-center">
+								<button type="button" class="btn btn-danger"data-dismiss="modal">cancel</button>
+								<button type="submit" class="btn btn-success">Submit</button>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- ====================SIDE SOCIAL LINKS=========================== -->
+
+<div id="sidebar">
+	
+	<div class="social facebook">
+	  <a href=" https://www.facebook.com/kaambada/community/ " target="_blank">
+		  <p>Like on Facebook<img src="style/image/facebook.png"style="width:40px; height:30px;margin-top:10px;margin-left:5px"> </p>
+	  </a>
+	</div>
+	<div class="social instagram">
+		<a href=" https://www.instagram.com/shaktiiji/ " target="_blank">
+		  <p>Follow on instagram<img src="style/image/instagram.png"style="width:40px; height:30px;margin-top:10px;margin-left:5px">  </p>
+		</a>
+	  </div>
+	<div class="social twitter">
+	  <a href=" https://www.twitter.com " target="_blank">
+		<p>Follow on Twitter<img src="style/image/twitter.png"style="width:40px; height:30px;margin-top:10px;margin-left:5px">  </p>
+	  </a>
+	</div>
+	<div class="social google">
+	  <a href=" https://www.plus.google.com " target="_blank">
+		<p>&nbspAdd on Google+<img src="style/image/google-plus.png"style="width:40px; height:30px;margin-top:10px;margin-left:7px"> </p>
+	  </a>
+	</div>
+	<div class="social youtube">
+	  <a href=" https://www.youtube.com/channel/UCahFaiVGefBRMHlN9HuBGjw/videos " target="_blank">
+		<p>Subscribe on Youtube<img src="style/image/youtube.png"style="width:40px; height:30px;margin-top:10px;margin-left:5px">  </p>
+	  </a>
+	</div>
+	<div class="social linkedin">
+	  <a href=" https://www.linkedin.com " target="_blank">
+		<p>Connect on LinkedIn<img src="style/image/linkedin.png"style="width:40px; height:30px;margin-top:10px;margin-left:5px"> </p>
+	  </a>
+	</div>
+  </div>
+</div>
+
+<section id="31" class="container Servicese text-center pt-5" >
+	<div class="service">
+	<h2 class=" text-warning ">Our Services</h2>
+	<p class="text-warning ">That time is that good for me</p>
+   </div>
+	<div class="row textsetting" style="font-family: 'Times New Roman', Times, serif;">
+		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+			<div class="imagetext d-block m-auto"><i class='fas fa-angle-double-up fa-3x text-white'></i></div>
+			<h1 styele="color:black">Colin Powell</h1>
+			<p styele="color:black">"Success seems to be connected with action. Successful people keep moving. They make mistakes, but they don't quit."</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+			<div class="imagetext d-block m-auto"><i class='fas fa-angle-double-up fa-3x text-white'></i></div>
+			<h1 styele="color:black">Charles F. Kettering</h1>
+			<p styele="color:black">"Keep on going, and the chances are that you will stumble on something, perhaps when you are least expecting it. I never heard of anyone ever stumbling on something sitting down."</p>
+		</div>
+		<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto ">
+			<div class="imagetext d-block m-auto btn-warning"><i class='fas fa-angle-double-up fa-3x text-white'></i></div>
+			<h1 styele="color:black">Vidal Sassoon</h1>
+			<p styele="color:black">"There is a powerful driving force inside every human being that, once unleashed, can make any vision, dream, or desire a reality."</p>
+		</div>
+	</div>
+</section>
+
+<section id="32" class="text-center bg-light pt-5 pb-5" style="font-family: 'Times New Roman', Times, serif;">
+	<h1>About</h1>
+	<p>Lorem ipsum is that good i like that is good for everyone</p>
+	<div class="container pt-3">
+    <div class="row">
+    	<h3 class="about-text">Not all digital marketing and social media specialists have a background in research, marketing, branding and design, psychology and business coaching. We do. We don't just do social media. We understand people, and we understand business. That means our marketing delivers results.</h3>
+	</div>
+	<h4 class="expert_team" style="color: #aa80ff;">Meet our expert developers</h4>
+	<!-- ========================card-hover=========================== -->
+	<div class="row mt-30" style="margin-top: 20px;">
+		<div class="col-md-4 col-sm-6">
+			<div class="box16">
+				<img src="/style/image/anand2.jpg">
+				<div class="box-content">
+					<h3 class="title">Anand</h3>
+					<span class="post">FullStack developer</span>
+					<ul class="socials">
+						<li><a href="https://www.facebook.com/anand.react" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+						<li><a href="https://twitter.com/anand_react" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+						<li><a href="https://www.instagram.com/anand.react/" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+						<li><a href="https://github.com/anandpatel504" target="_blank"><i class="fa fa-github" ></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="box16">
+				<img src="/style/image/pratik.jpeg">
+				<div class="box-content">
+					<h3 class="title"> Pratik </h3>
+					<span class="post">FullStack developer</span>
+					<ul class="socials">
+						<li><a href="https://www.facebook.com/pratikdeshmukh2004" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+						<li><a href="https://twitter.com/pratik9545/" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+						<li><a href="https://www.instagram.com/prat1k_deshmukh/" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+						<li><a href="https://github.com/pratikdeshmukh2004" target="_blank"><i class="fa fa-github" ></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="col-md-4 col-sm-6">
+			<div class="box16">
+				<img src="/style/image/sushil.png">
+				<div class="box-content">
+					<h3 class="title">Shushil</h3>
+					<span class="post">Web developer</span>
+					<ul class="socials">
+						<li><a href="https://www.facebook.com/profile.php?id=100026066832976" target="_blank"><i class="fa fa-facebook" ></i></a></li>
+						<li><a href="https://twitter.com/" target="_blank"><i class="fa fa-twitter" ></i></a></li>
+						<li><a href="https://www.instagram.com/" target="_blank"><i class="fa fa-instagram" ></i></a></li>
+						<li><a href="https://github.com/sssuhil3349" target="_blank"><i class="fa fa-github" ></i></a></li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		</div>
+	</div>
+
+</div>
+</section>
+
+<section id="33" class="text-center pt-5 AMAZING" style="font-family: 'Times New Roman', Times, serif;">
+	<h1 style="color: #ffcc00;" >OUR AMAZING TEAM</h1>
+	<p>you are meet my expert team and you can see </p>
+	<div class="container pt-5">
+		<div class="row">
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<!-- <img src="style/image/shakti.JPG" class="figure-img img-fluid rounded-circle"style="width:250px;height:250px"> -->
+					<div class="picture figure-img img-fluid"><img src="style/image/shakti.JPG" style="width:250px;height:250px"></div>
+					<figcaption>
+						<h4>Shakti Kushwaha</h4>
+						<p class="figure-caption">Director</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<!-- <img src="style/image/anand.JPG" class="figure-img img-fluid rounded-circle"style="width:250px;height:250px"> -->
+					<div class="picture figure-img img-fluid"><img src="style/image/anand.JPG" style="width:250px;height:250px"></div>
+					<figcaption>
+						<h4>Anand</h4>
+						<p class="figure-caption">Software Engineer</p>
+					</figcaption>
+				</figure>
+			</div>
+			<div class="col-lg-4 col-md-4 col-sm-4 col-10 d-block m-auto">
+				<figure class="figure">
+					<!-- <img src="style/image/102.png" class="figure-img img-fluid rounded-circle"style="width:250px;height:250px"> -->
+					<div class="picture figure-img img-fluid"><img src="style/image/prajjwal1.jpg" style="width:250px;height:250px"></div>
+					<figcaption>
+						<h4>Prajjwal Yadav</h4>
+						<p class="figure-caption">Life Coach</p>
+					</figcaption>
+				</figure>
+			</div>
+		</div>
+	</div>
+</section>
+
+<!-- =====================Footer====================== -->
+  <div id="34" class="container-fluid bg-info py-5" style="font-family: 'Times New Roman', Times, serif;">
+	<h1 class="text-center py-2">Contact</h1>
+	<div class="row">
+		<div class="col-sm-4 col-md-4 col-12  py-3">
+		  <ul>
+		  	<li><i class="fa fa-angle-right"></i> I failed my way to success.</li>
+		  	<li><i class="fa fa-angle-right"></i> Dream bigger. Do bigger.</li>
+		  	<li><i class="fa fa-angle-right"></i> Don’t wait for opportunity. Create it.</li>
+		  	<!-- <li><i class="fa fa-angle-right"></i> nice looking bro</li> -->
+		  </ul>
+		</div>
+		<div class="col-sm-4 col-md-4   text-center	py-3">
+			<i><a href="https://www.facebook.com/kaambada/community/" target="_blank" class="fa fa-facebook fat"></a></i>
+			<i><a href="https://www.facebook.com" class="fa fa-instagram fat"></a></i>
+			<i><a href="https://www.facebook.com" class="fa fa-twitter fat"></a></i>
+			<i><a href="https://www.facebook.com" class="fa fa-youtube fat"></a></i>
+			
+			<!-- <h2 class=" my-5">Online <span class="text-danger">tutorial</span> <span class="text-success"> haha</span></h2> -->
+			<h5>If you can dream it, you can do it.</h5>
+		</div>
+		<div class="col-sm-4 col-md-4 col-12  py-3">
+			<center><h3>Our Contact :-<br><span style="color: red; font-weight: bold;">7565045665</span></h3></center>
+			<!-- <p>Our office timink</p>
+			<p>8928181667</p> -->
+
+		</div>
+	</div>
+	<footer class="text-center">
+		<h4 style="color: whitesmoke">@copywrite kaambada.com created by Anand Patel</h4>
+	</footer>
+  </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+</body>
+
+</body>
+</html>
