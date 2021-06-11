@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    
+    <style>body{
+
+      background-image: url("/style/image/1.jpg");
+      background-size: 100% 100%;
+      background-repeat: no-repeat;
+      height: 100%;
+      padding-bottom: 170px!important;
+      width:100%;
+      background-attachment: fixed;
+    
+    }</style>
+
+</head>
+<body>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+    <script>swal("<%= thanks %>", "<%= answer %>", "<%= icon %>")
+        .then(value => {
+          if (value) {
+            window.location.replace("http://localhost:3050/main_page");
+          }
+        });</script>
+</body>
+</html>
